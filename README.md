@@ -1,4 +1,4 @@
-# Backward Chained Behavior Trees, BCBT_D
+# Backward Chained Behavior Trees with Deliberation, BCBT_D
 The BCBT_D is developed based on https://btirai.github.io/youbot.  
 ## Run in Linux:  
 1. Install Dependencies:  

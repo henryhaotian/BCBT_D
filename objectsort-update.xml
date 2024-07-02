@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <BehaviorTree>
+        <Sequence text="IFTHENELSE">
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnGoal text="yellow_1,goal_1"/>
+                <Sequence text="IFTHENELSE">
+                    <IsFreeToGoal text="goal_1"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="yellow_1"/>
+                        <Sequence text="IFTHENELSE">
+                            <Fallback text="IFTHENELSE">
+                                <IsFreeToObject text="yellow_1"/>
+                                <Sequence text="IFTHENELSE">
+                                    <Fallback text="IFTHENELSE">
+                                        <IsObjectOnGoal text="purple_1,goal_5"/>
+                                        <Sequence text="IFTHENELSE">
+                                            <IsFreeToGoal text="goal_5"/>
+                                            <Fallback text="IFTHENELSE">
+                                                <IsObjectOnHand text="purple_1"/>
+                                                <Sequence text="IFTHENELSE">
+                                                    <IsFreeToObject text="purple_1"/>
+                                                    <IsHandEmpty text="purple_1"/>
+                                                    <Pick text="purple_1"/>
+                                                </Sequence>
+                                            </Fallback>
+                                            <Place text="purple_1,goal_5"/>
+                                        </Sequence>
+                                    </Fallback>
+                                    <IsHandEmpty text="yellow_1"/>
+                                    <ClearPathTo text="yellow_1"/>
+                                </Sequence>
+                            </Fallback>
+                            <IsHandEmpty text="yellow_1"/>
+                            <Pick text="yellow_1"/>
+                        </Sequence>
+                    </Fallback>
+                    <Place text="yellow_1,goal_1"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnGoal text="green_1,goal_2"/>
+                <Sequence text="IFTHENELSE">
+                    <IsFreeToGoal text="goal_2"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="green_1"/>
+                        <Sequence text="IFTHENELSE">
+                            <Fallback text="IFTHENELSE">
+                                <IsFreeToObject text="green_1"/>
+                                <Sequence text="IFTHENELSE">
+                                    <IsHandEmpty text="green_1"/>
+                                    <ClearPathTo text="green_1"/>
+                                </Sequence>
+                            </Fallback>
+                            <IsHandEmpty text="green_1"/>
+                            <Pick text="green_1"/>
+                        </Sequence>
+                    </Fallback>
+                    <Place text="green_1,goal_2"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnGoal text="cyan_1,goal_3"/>
+                <Sequence text="IFTHENELSE">
+                    <IsFreeToGoal text="goal_3"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="cyan_1"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsFreeToObject text="cyan_1"/>
+                            <IsHandEmpty text="cyan_1"/>
+                            <Pick text="cyan_1"/>
+                        </Sequence>
+                    </Fallback>
+                    <Place text="cyan_1,goal_3"/>
+                </Sequence>
+            </Fallback>
+            <Fallback text="IFTHENELSE">
+                <IsObjectOnGoal text="blue_1,goal_4"/>
+                <Sequence text="IFTHENELSE">
+                    <IsFreeToGoal text="goal_4"/>
+                    <Fallback text="IFTHENELSE">
+                        <IsObjectOnHand text="blue_1"/>
+                        <Sequence text="IFTHENELSE">
+                            <IsFreeToObject text="blue_1"/>
+                            <IsHandEmpty text="blue_1"/>
+                            <Pick text="blue_1"/>
+                        </Sequence>
+                    </Fallback>
+                    <Place text="blue_1,goal_4"/>
+                </Sequence>
+            </Fallback>
+            <IsObjectOnGoal text="purple_1,goal_5"/>
+        </Sequence>
+    </BehaviorTree>
+</root>

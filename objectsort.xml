@@ -1,0 +1,12 @@
+<root>
+    <BehaviorTree>
+	<Sequence text="IFTHENELSE">
+            <IsObjectOnGoal text="yellow_1,goal_1"/>
+            <IsObjectOnGoal text="green_1,goal_2"/>
+            <IsObjectOnGoal text="cyan_1,goal_3"/>
+            <IsObjectOnGoal text="blue_1,goal_4"/>
+            <IsObjectOnGoal text="purple_1,goal_5"/>
+	</Sequence>
+    </BehaviorTree>
+</root>
+

@@ -7,7 +7,7 @@ The BCBT_D is developed based on https://btirai.github.io/youbot.
 2. Download & install V-REP(CoppeliaSim):  
     &emsp;https://www.coppeliarobotics.com/previousVersions (Recommended version: 3.6.2)  
 3. Compile BCBT_D:  
-    &emsp;cd BCBT_D  
+    &emsp;cd BCBT_D    
     &emsp;mkdir build & cd build  
     &emsp;cmake ..  
     &emsp;make  
@@ -20,7 +20,7 @@ The BCBT_D is developed based on https://btirai.github.io/youbot.
 5. Run BCBT_D:  
     &emsp;Open terminal:  
          &emsp;&emsp;cd BCBT_D/build  
-         &emsp;&emsp;./BT 
-         &emsp;&emsp;File->Load XML 
-         &emsp;&emsp;BCBT_D/objectsort.xml 
+         &emsp;&emsp;./BT  
+         &emsp;&emsp;File->Load XML  
+         &emsp;&emsp;BCBT_D/objectsort.xml   
          &emsp;&emsp;Press play icon 

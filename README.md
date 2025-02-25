@@ -1,3 +1,6 @@
+This is the project repository of the paper:  
+Zhou, H., Lin, Y. & Min, H. Backward chained behavior trees with deliberation for multi-goal tasks. Complex Intell. Syst. 11, 108 (2025).   
+The DOI of paper: https://doi.org/10.1007/s40747-024-01731-6  
 # Backward Chained Behavior Trees with Deliberation, BCBT_D
 The BCBT_D is developed based on https://btirai.github.io/youbot.  
 ## Run in Linux:  
